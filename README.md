@@ -2,7 +2,7 @@
 Check if character is a vowel
 
 ```javascript
-const isVowel = char => /aeiou/i.test(char);
+const isVowel = char => /[aeiou]/i.test(char);
 ```
 
 It could be used in a recursive way to count vowels in a string
